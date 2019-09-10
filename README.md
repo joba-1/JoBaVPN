@@ -18,7 +18,7 @@ tar xzf android-studio-ide-191.5791312-linux.tar.gz
 ~/android-studio/bin/studio.sh
 ```
 * Download an SDK
-    * Select menu Tools/SDK Manager
+    * Select menu Tools/SDK Manager (or studio offers latest sdk installation on first start) 
     * Select the SDK (e.g. Oreo 8.0)
     * Press OK
  
@@ -26,7 +26,7 @@ This should download all you need to compile and transfer the app to your androi
 
 * Clone this repo into Android Studio
 
-    * Select menu File/New/Project from Version Control/Git
+    * Select menu File/New/Project from Version Control/Git (or studio offers this option at first start)
     * Enter repo URL https://github.com/joba-1/JoBaVPN
     * Select Clone
 
@@ -40,13 +40,12 @@ This should download all you need to compile and transfer the app to your androi
         * Switch them on
         * Enable "Stay awake"
         * Enable "USB Debugging"
-        * Enable "OEM Unlock" (not really sure...)
     * Connect phone to USB port
         * Allow debug access when asked on the phone
 
 * Build and Install
-    * Open the project with menu File/Open
-    * Toolbar should show hammer icon, then "app" configuration and your phone as target device
+    * Open the project with menu File/Open (or it is already open after first clone)
+    * Toolbar should show hammer (build) icon, then "app" configuration and your phone as target device
     * Select the triangle (or Shift-F10) to build, install and run the app on your phone
 
 ## Details
