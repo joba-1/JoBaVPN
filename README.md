@@ -5,6 +5,8 @@ Nice to have a start icon for fast vpn start/stop.
 
 ## Instructions
 
+I did that on linux, so you may adapt things for other OS
+
 * Download and install Android Studio 3.5 (or probably any other)
 ```
 cd
@@ -24,7 +26,7 @@ This should download all you need to compile and transfer the app to your androi
 
 * Clone this repo into Android Studio
 
-    * Select menu File/New/Project5 from Version Control/Git
+    * Select menu File/New/Project from Version Control/Git
     * Enter repo URL https://github.com/joba-1/JoBaVPN
     * Select Clone
 
@@ -39,7 +41,7 @@ This should download all you need to compile and transfer the app to your androi
         * Enable "Stay awake"
         * Enable "USB Debugging"
         * Enable "OEM Unlock" (not really sure...)
-    * Connect phone to USB port (on windows you may need a driver, I used linux)
+    * Connect phone to USB port
         * Allow debug access when asked on the phone
 
 * Build and Install
