@@ -50,5 +50,9 @@ This should download all you need to compile and transfer the app to your androi
 
 ## Details
 
-The project is based on the "Empty Activity" new project template.
-Basically all I changed was [MainActivity.kt line 13-16](../master/app/src/main/java/com/joba/vpn/MainActivity.kt#L13)
+* The project is based on the "Empty Activity" new project template.
+* Basically all I changed was [MainActivity.kt line 13-16](../master/app/src/main/java/com/joba/vpn/MainActivity.kt#L13)
+* Should work with any android phone and version
+* Tested with 
+    * Samsung S5 mini / Android 6 / SDK 10.0 API 29
+    * Samsung S7 / Android 8 / SDK 8.0 API 26
