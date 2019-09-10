@@ -48,3 +48,8 @@ This should download all you need to compile and transfer the app to your androi
     * Open the project with menu File/Open
     * Toolbar should show hammer icon, then "app" configuration and your phone as target device
     * Select the triangle (or Shift-F10) to build, install and run the app on your phone
+
+## Details
+
+The project is based on the "Empty Activity" new project template.
+Basically all I changed was [MainActivity.kt line 13-16](../master/app/src/main/java/com/joba/vpn/MainActivity.kt#L13)
